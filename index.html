@@ -1,0 +1,138 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>VoidLauncher</title>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #090b12;
+    color: white;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 8%;
+    background: #0d101a;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+nav a {
+    color: #aaa;
+    text-decoration: none;
+    margin-left: 25px;
+}
+
+.hero {
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 30px;
+    background:
+    radial-gradient(ellipse at center, #28304b 0%, #111522 45%, #090b12 100%);
+}
+
+.hero h1 {
+    font-size: clamp(40px, 8vw, 76px);
+    letter-spacing: 5px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    color: #aab0c0;
+    font-size: 18px;
+    margin-bottom: 35px;
+}
+
+button {
+    background: #5269d9;
+    color: white;
+    border: none;
+    padding: 16px 35px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.25s;
+}
+
+button:hover {
+    background: #7185ef;
+    transform: translateY(-3px);
+}
+
+section {
+    padding: 70px 8%;
+    text-align: center;
+}
+
+section h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+section p {
+    color: #aab0c0;
+    line-height: 1.7;
+}
+
+footer {
+    text-align: center;
+    padding: 30px;
+    color: #777;
+    border-top: 1px solid #252938;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <div class="logo">VOIDLAUNCHER</div>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#features">Features</a>
+    </nav>
+</header>
+
+<div class="hero">
+    <h1>VOIDLAUNCHER</h1>
+    <p>Your world. Your Void.</p>
+    <button>DOWNLOAD</button>
+</div>
+
+<section id="about">
+    <h2>About VoidLauncher</h2>
+    <p>A new way to experience Minecraft Java Edition.</p>
+</section>
+
+<section id="features">
+    <h2>Features</h2>
+    <p>Custom visual modifications, Fabric support and more.</p>
+</section>
+
+<footer>
+    © 2026 VoidLauncher. All rights reserved.
+</footer>
+
+</body>
+</html>
